@@ -9,7 +9,7 @@
         <style>
             p {
                 text-align: center;
-                font-size: 60px;
+                font-size: 30px;
                 margin-top: 0px;
             }
         </style>
@@ -27,7 +27,7 @@
                 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s until the flexining";
+                document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s until the third flexining";
                 if (distance < 0) {
                     clearInterval(x);
                     document.getElementById("demo").innerHTML = "EXPIRED";
@@ -101,7 +101,7 @@
                         <td rowspan="5">
                             <center>
                                 <a href="index.html">
-                                    <img src="images/james_several_people_are_typing.gif" width="175" height="70" border="0" alt="main index">
+                                    <img src="images/james_typing.gif" width="175" height="70" border="0" alt="main index">
                                 </a><b><center>main index</center></b>
                             </center>
                         </td>
